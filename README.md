@@ -17,6 +17,16 @@ GLiNER is a Named Entity Recognition (NER) model capable of identifying any enti
 * Paper: https://arxiv.org/abs/2311.08526
 * Repository: https://github.com/urchade/GLiNER
 
+## Available models
+
+| Release | Model Name | # of Parameters | Language | License |
+| - | - | - | - | - |
+| v0 | [urchade/gliner_base](https://huggingface.co/urchade/gliner_base)<br>[urchade/gliner_multi](https://huggingface.co/urchade/gliner_multi) | 209M<br>209M | English<br>Multilingual | cc-by-nc-4.0 |
+| v1 | [urchade/gliner_small-v1](https://huggingface.co/urchade/gliner_small-v1)<br>[urchade/gliner_medium-v1](https://huggingface.co/urchade/gliner_medium-v1)<br>[urchade/gliner_large-v1](https://huggingface.co/urchade/gliner_large-v1) | 166M<br>209M<br>459M | English <br> English <br> English | cc-by-nc-4.0 |
+| v2 | [urchade/gliner_small-v2](https://huggingface.co/urchade/gliner_small-v2)<br>[urchade/gliner_medium-v2](https://huggingface.co/urchade/gliner_medium-v2)<br>[urchade/gliner_large-v2](https://huggingface.co/urchade/gliner_large-v2) | 166M<br>209M<br>459M |  English <br> English <br> English | apache-2.0 |
+| v2.1 | [urchade/gliner_small-v2.1](https://huggingface.co/urchade/gliner_small-v2.1)<br>[urchade/gliner_medium-v2.1](https://huggingface.co/urchade/gliner_medium-v2.1)<br>[urchade/gliner_multi-v2.1](https://huggingface.co/urchade/gliner_multi-v2.1) | 166M<br>209M<br>209M | English <br> English <br> Multilingual | apache-2.0 |
+
+
 ## Installation
 To use this model, you must install the GLiNER Python library:
 ```
